@@ -24,7 +24,7 @@ const links = [
                     <ul className="d-flex justify-content-between gap-5">
                         {links.map((link, index) => {
                             return(
-                                <NavLink key={index} to={link.path}>{link.pagina}</NavLink>
+                                <li key={index}><NavLink to={link.path} className="links">{link.pagina}</NavLink></li>
                             )
                         })}
                     </ul>

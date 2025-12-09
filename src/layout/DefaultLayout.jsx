@@ -6,7 +6,6 @@ return (
 <>
 <Header />
 <main><Outlet/></main>
-<footer>sono footer</footer>
 </>
 
 )

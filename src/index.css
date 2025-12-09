@@ -19,3 +19,23 @@ ul {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.card-img-top {
+  height: 250px;
+  object-fit: contain;
+}
+
+.descrizione-prodotto {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+
+.links {
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+}
