@@ -1,3 +1,5 @@
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ img {
     width: 150px;
 }
 
+/* COMMON */
 
 ul {
     list-style-type: none;
@@ -15,11 +18,42 @@ ul {
     font-weight: 800;
 }
 
-
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1 {
+    padding: 150px 0;
 }
 
+/* LAYOUT */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/736x/bf/66/ac/bf66ac010853100bcf5c1aecf34c0230.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* NAVBAR */
+
+.header {
+    height: 120px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(240, 248, 255, 0.445);
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+
+.links {
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    color: orangered;
+}
+
+
+
+/* CARD */
 .card-img-top {
   height: 250px;
   object-fit: contain;
@@ -30,12 +64,7 @@ body {
     text-align: justify;
 }
 
-
-.links {
-    color: black;
-    text-decoration: none;
-}
-
-.active {
-    color: red;
+.card.transparent {
+  background-color: rgba(255, 255, 255, 0.651);
+  backdrop-filter: blur(4px);
 }
