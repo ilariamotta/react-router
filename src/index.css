@@ -39,6 +39,8 @@ font-weight: 700;
 color: rgb(131, 180, 255);
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.11);
 cursor: pointer;
+display: inline-block;
+border: 0;
 }
 
 
@@ -86,5 +88,10 @@ body {
 
 .card.transparent {
   background-color: rgba(255, 255, 255, 0.651);
+  backdrop-filter: blur(4px);
+}
+
+.prodotto-transparent {
+    background-color: rgba(255, 255, 255, 0.651);
   backdrop-filter: blur(4px);
 }

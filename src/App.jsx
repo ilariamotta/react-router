@@ -7,6 +7,7 @@ import ChiSiamo from './pages/ChiSiamo'
 import Prodotti from './pages/Prodotti'
 import DefaultLayout from './layout/DefaultLayout'
 import ProdottoSingolo from './pages/ProdottoSingolo'
+import { Navigate } from "react-router-dom";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<ChiSiamo />} />
             <Route path="/prodotti" element={<Prodotti />} />
             <Route path="/prodotti/:id" element={<ProdottoSingolo/>} />
+            <Route path="*" element={<Navigate to="/prodotti" />} />
             </Route>
         </Routes>
       </BrowserRouter>
