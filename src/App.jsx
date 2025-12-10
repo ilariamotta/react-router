@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage'
 import ChiSiamo from './pages/ChiSiamo'
 import Prodotti from './pages/Prodotti'
 import DefaultLayout from './layout/DefaultLayout'
+import ProdottoSingolo from './pages/ProdottoSingolo'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<ChiSiamo />} />
             <Route path="/prodotti" element={<Prodotti />} />
+            <Route path="/prodotti/:id" element={<ProdottoSingolo/>} />
             </Route>
         </Routes>
       </BrowserRouter>
