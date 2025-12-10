@@ -10,6 +10,8 @@ img {
     width: 150px;
 }
 
+
+
 /* COMMON */
 
 ul {
@@ -20,7 +22,11 @@ ul {
 
 
 .padding-150 {
-    padding: 150px 0;
+    padding-top: 150px
+}
+
+.img-prodotto {
+    width: 300px
 }
 
 

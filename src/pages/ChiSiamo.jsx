@@ -1,5 +1,5 @@
 export default function ChiSiamo() {
     return (
-        <h1 className="padding-150">CHI SIAMO</h1>
+        <div className="padding-150 container"><h1>CHI SIAMO</h1></div>
     )
 }
